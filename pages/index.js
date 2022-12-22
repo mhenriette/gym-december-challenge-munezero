@@ -11,6 +11,7 @@ import Number from '../components/sections/Number'
 import Advert from '../components/ui/Advert'
 import School from '../components/sections/School'
 import Alumni from '../components/sections/Alumni'
+import Service from '../components/sections/Service'
 
 
 
@@ -35,6 +36,7 @@ export default function Home() {
      <Number/>
      <School/>
      <Alumni/>
+     <Service/>
      
       </div>
       
