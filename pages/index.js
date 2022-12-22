@@ -12,6 +12,7 @@ import Advert from '../components/ui/Advert'
 import School from '../components/sections/School'
 import Alumni from '../components/sections/Alumni'
 import Service from '../components/sections/Service'
+import Support from '../components/sections/Support'
 
 
 
@@ -37,6 +38,7 @@ export default function Home() {
      <School/>
      <Alumni/>
      <Service/>
+     <Support/>
      
       </div>
       
