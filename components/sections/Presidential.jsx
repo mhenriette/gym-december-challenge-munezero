@@ -9,8 +9,8 @@ import Button from '../ui/Button'
 export default function Presidential() {
   return (
     <div className='mt-24 mx-auto container'>
-        <div className='px-6 mx-6'>
-    <div className='m-4  px-6 lg:flex items-center'>
+        <div className='lg:px-6 llg:mx-6 mx-0 px-0 '>
+    <div className='lg:m-4 m-0   px-6 lg:flex items-center'>
     <div className='-z-50  flex-[3]'>
 <Image priority src={presidential}  className='' width={750} height={422} alt='presidential'  /></div>
 <div className='flex flex-col  gap-3 p-10 text-white bg-secondary  flex-[2] lg:-ml-36  md:-mt-20 z-50 md:mx-20 lg:mx-0 lg:mt-0 lg:h-fit  relative '>

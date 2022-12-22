@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function Navbar() {
   return (
     
-    <div className='bg-primary flex px-6 absolute top-0 z-20 w-full '>
+    <div className='bg-primary flex px-6  top-0 z-[500] w-full fixed '>
         <div className='flex items-center justify-between w-full'>
             {/* logos */}
                 <div className='flex items-center justify-between gap-2'>
@@ -28,7 +28,7 @@ export default function Navbar() {
                     height={42}
                     alt='logo'
                     />
-                    <span className="font-normal text-xs  text-white block  ">
+                    <span className="font-normal text-xs  text-white lg:block hidden  ">
                     Technical <br></br>
                     University <br></br>
                     of Munich
@@ -37,7 +37,7 @@ export default function Navbar() {
             </div>
             {/* links */}
             <div className='flex justify-between  items-center'>
-            <nav className='block mr-[54px]'>
+            <nav className='lg:block mr-[54px] hidden '>
             <ul className='flex gap-[1.5rem]'>
                 <li className='mylinks'><Link href='/NewsAndEvents'>NEWS AND EVENTS</Link></li>
                 <li className='mylinks'><Link href='/Studies'>STUDIES</Link></li>
@@ -61,6 +61,15 @@ export default function Navbar() {
                 width={24}
                 height={24}
                 alt='search'/>
+            </div>
+            <div className='block lg:hidden'>
+            <Image 
+                className="invert"
+                src="/logos/burger.svg"
+                priority
+                width={24}
+                height={24}
+                alt='burger'/>
             </div>
             </div>
            

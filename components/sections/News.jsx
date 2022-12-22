@@ -10,7 +10,7 @@ import Button from "../ui/Button";
 export default function News() {
   return (
     <div className="mt-12   mx-auto container ">
-      <div className="flex items-start px-6 mx-6 ">
+      <div className="flex items-start px-6 lg:mx-6 flex-col lg:flex-row mx-0 ">
 
         {/* news */}
         <div className=" flex flex-col basis-1/2 ">
@@ -25,7 +25,7 @@ export default function News() {
           </div>
           <Button link="/#" text="see all"  styles='self-start'/>
         </div>
-        <div className="px-3 flex basis-1/2 gap-6 ">
+        <div className="lg:px-3 mt-5 lg:mt-0 px-0 flex basis-1/2 gap-6 flex-col lg:flex-row">
           <NewsCard
             image={news1}
             pictitle="TUM in Rankings"
@@ -54,7 +54,7 @@ export default function News() {
         </div>
         
       </div>
-      <div className="mt-12 ml-[476px] mr-[300px] gap-6 flex">
+      <div className="mt-12 lg:ml-[476px] mr-0 ml-0 flex-col lg:flex-row px-4 lg:mr-[300px] gap-6 flex">
       <NewsCard
             image={prize}
             pictitle="Research"

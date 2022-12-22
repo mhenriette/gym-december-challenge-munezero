@@ -9,12 +9,12 @@ export default function Alumni() {
 
 return (
     <div className='mt-28 mx-auto container'>
-    <div className='px-6 mx-6'>
-    <div className='px-6 mt-11 lg:flex items-center flex-row-reverse '>
+    <div className='lg:px-6 lg:mx-6 px-3'>
+    <div className='lg:px-6 px-0 mt-11 lg:flex items-center flex-row-reverse '>
     <div className='relative -z-30 flex-[3] '>
         <Image src={Philip} priority className='w-full h-full lg:h-[447px] al object-cover' alt='csmimage'/>
     </div>
-    <div className='bg-[#ea7237] text-white flex-[2] lg:mx-0 lg:mt-0 lg:-mr-16  p-10 mt-[72px] md:mx-16 md:-mt-10 z-40 '>
+    <div className='bg-[#ea7237] text-white flex-[2] lg:mx-0 mt-0 lg:-mr-16  p-10 lg:mt-[72px] md:mx-16 md:-mt-10 z-40 '>
         <h1 className='font-bold text-3xl text-primary'>&quot;Here I have met a lot of people who are breaking new ground&quot;</h1>
         <div className='mt-5'><p className='text-base text-primary'>Philip Häusser, alumnus </p></div>
        

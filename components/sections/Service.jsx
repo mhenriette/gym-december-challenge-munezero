@@ -14,7 +14,7 @@ import s5 from '../../public/images/s5.jpg'
 
 export default function Service() {
   return (
-    <div className='px-6 mx-auto container flex flex-col lg:grid lg:grid-cols-3 items-start mt-20  lg:grid-rows-2 gap-x-36'>
+    <div className='lg:px-20 px-6  mx-auto  container flex flex-col gap-y-10 lg:grid lg:grid-cols-3 items-start mt-20  lg:grid-rows-2 gap-x-36'>
         <ServiceCard image={s1} 
         title='We are TUM – the podcast of our university'
          subtitle='In our podcast series, we regularly talk to the people who make up our university: From top researchers, students and faculty to the "hidden champions" behind the scenes.'

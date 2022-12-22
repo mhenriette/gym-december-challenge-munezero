@@ -1,3 +1,4 @@
+const { fontFamily } = require('tailwindcss/defaultTheme')
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -13,6 +14,9 @@ module.exports = {
       },
       backgroundImage:{
         'perspective': "url('/images/prospective.jpg')",
+      },
+      fontFamily: {
+        sans: ['var(--font-roboto)', ...fontFamily.sans],
       },
     },
   },
