@@ -6,6 +6,8 @@ import Hero from '../components/sections/Hero'
 import News from '../components/sections/News'
 import Prospective from '../components/sections/Prospective'
 import Degrees from '../components/sections/Degrees'
+import Presidential from '../components/sections/Presidential'
+
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -24,6 +26,8 @@ export default function Home() {
      <News/>
      <Prospective/>
      <Degrees/>
+     {/* <AdvertCard/> */}
+     <Presidential/>
       </div>
       
   )
