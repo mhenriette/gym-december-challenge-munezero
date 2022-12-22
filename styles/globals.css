@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer components{
+  .mylinks{
+    @apply uppercase text-white pt-8 pb-6 border-b-transparent border-b-4 hover:border-b-white mb-1 font-bold text-sm
+  }
+}
