@@ -7,6 +7,10 @@ import News from '../components/sections/News'
 import Prospective from '../components/sections/Prospective'
 import Degrees from '../components/sections/Degrees'
 import Presidential from '../components/sections/Presidential'
+import Number from '../components/sections/Number'
+import Advert from '../components/ui/Advert'
+import School from '../components/sections/School'
+import Alumni from '../components/sections/Alumni'
 
 
 
@@ -28,6 +32,10 @@ export default function Home() {
      <Degrees/>
      {/* <AdvertCard/> */}
      <Presidential/>
+     <Number/>
+     <School/>
+     <Alumni/>
+     
       </div>
       
   )
