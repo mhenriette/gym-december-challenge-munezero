@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Number() {
   return (
-    <div className='mt-12 '>
+    <div className='mt-24 mx-auto container '>
         <div className='px-6 mx-6  '>
             <div className='mb-12 text-primary font-bold text-[32px]'>
                 <h2>

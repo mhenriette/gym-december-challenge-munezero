@@ -1,12 +1,17 @@
 import React from "react";
 import NewsCard from "../ui/NewsCard";
 import news1 from "../../public/images/news1.webp";
+import ai from '../../public/images/ai.webp';
+import prize from '../../public/images/prize.webp';
+import search from '../../public/images/search.webp'
+
 import Button from "../ui/Button";
 
 export default function News() {
   return (
-    <div className="mt-12 mx-6 px-6 ">
-      <div className="flex items-start ">
+    <div className="mt-12   mx-auto container ">
+      <div className="flex items-start px-6 mx-6 ">
+
         {/* news */}
         <div className=" flex flex-col basis-1/2 ">
           <div>
@@ -32,38 +37,49 @@ export default function News() {
             time="12.20.2022"
           />
           <NewsCard
-            image={news1}
-            pictitle="TUM in Rankings"
-            subtitle="WirtschaftsWoche rankings"
-            title="Germanys strongest university in business sciences"
+            image={ai}
+            pictitle="
+            Artificial Intelligence 
+      "
+            subtitle="Robotics and AI in elderly cares"
+            title="Bavarian government funding for research into geriatronics"
             paragraph="
-        TUM has retained its ranking as Germanys strongest research university in business sciences. The latest issue of the..."
+						The Bavarian cabinets 2023 draft budget includes 4.74 million euros in funding for research on robotics and AI...
+				"
             date="12.20.2022"
-            time="12.20.2022"
+            time="
+            Reading time 5 min.
+          "
           />
         </div>
         
       </div>
       <div className="mt-12 ml-[476px] mr-[300px] gap-6 flex">
       <NewsCard
-            image={news1}
-            pictitle="TUM in Rankings"
-            subtitle="WirtschaftsWoche rankings"
-            title="Germanys strongest university in business sciences"
+            image={prize}
+            pictitle="Research"
+            subtitle="Germanys top research award"
+            title="Leibniz Prize for Biomathematician Fabian Theis"
             paragraph="
-        TUM has retained its ranking as Germanys strongest research university in business sciences. The latest issue of the..."
-            date="12.20.2022"
-            time="12.20.2022"
+       
+					
+						Mathematician, physicist and information scientist Prof. Fabian Theis has won the 2023 Gottfried Wilhelm Leibniz Prize. The...
+            "
+            date="12.8.2022"
+            time="Reading time 2 min"
           />
           <NewsCard
-            image={news1}
-            pictitle="TUM in Rankings"
-            subtitle="WirtschaftsWoche rankings"
-            title="Germanys strongest university in business sciences"
+            image={search}
+            pictitle="
+            Research
+      "
+            subtitle="Search for dark matter"
+            title="Antihelium nuclei as messengers from the depths of the galaxy "
             paragraph="
-        TUM has retained its ranking as Germanys strongest research university in business sciences. The latest issue of the..."
-            date="12.20.2022"
-            time="12.20.2022"
+						How are galaxies born, and what holds them together? Astronomers assume that dark matter plays an essential role. However,...
+            "
+            date="12.13.2022"
+            time="Reading time 2 min"
           />
 
 

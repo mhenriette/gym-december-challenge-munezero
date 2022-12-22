@@ -1,9 +1,11 @@
 import React from 'react'
 import Button from '../ui/Button'
+import Wrapper from '../ui/Wrapper'
 
 export default function Support() {
   return (
-    <div className='mt-28'>
+
+    <div className='mt-28 mx-auto container'>
     <div className='px-6 mx-6'>
         <div>
             <div className='py-10 px-3 bg-[#efedfc] text-center'>
@@ -14,5 +16,6 @@ export default function Support() {
         </div>
         </div>
         </div>
+        
   )
 }

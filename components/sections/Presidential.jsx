@@ -8,7 +8,7 @@ import Button from '../ui/Button'
 
 export default function Presidential() {
   return (
-    <div className='mt-12'>
+    <div className='mt-24 mx-auto container'>
         <div className='px-6 mx-6'>
     <div className='m-4  px-6 lg:flex items-center'>
     <div className='-z-50  flex-[3]'>

@@ -3,7 +3,8 @@ import Button from '../ui/Button'
 
 export default function Prospective() {
   return (
-    <div className='mt-12'>
+    <div className='mt-24 mx-auto container'>
+        <div className='px-6 mx-6'>
         <div className='py-6 mx-6'>
             <div className='mb-12'>
                 <div className='font-bold text-primary'>
@@ -21,10 +22,10 @@ export default function Prospective() {
                     <div className='border px-2 text-base  font-bold text-secondary -mr-32   mx-2 mb-2 border-[#cdd4db]  border-solid z-10 relative bg-white'>
                     <p className='px-5 py-3 '>For:</p>
                     <ul className=''>
-                        <li className='py-3 px-5 '><button >Prospective Students</button></li>
-                        <li className='py-3 px-5'><button >Founders</button></li>
-                        <li className='py-3 px-5'><button >Employees</button></li>
-                        <li className='py-3 px-5 mt-5 border-t pt-2'><button >Show All</button></li>
+                        <li className='py-3 px-5 bg-[#e8ecef] text-primary'><button >Prospective Students</button></li>
+                        <li className='py-3 px-5 hover:bg-[#e8ecef] hover:text-primary'><button >Founders</button></li>
+                        <li className='py-3 px-5 hover:bg-[#e8ecef] hover:text-primary'><button >Employees</button></li>
+                        <li className='py-3 px-5 mt-5 border-t pt-2 hover:bg-[#e8ecef] hover:text-primary'><button >Show All</button></li>
                     </ul>
 
                          </div>
@@ -54,6 +55,7 @@ export default function Prospective() {
                 {/* button */}
                 <Button text='learn more' link='/#' styles='border-secondary   bg-white self-start border text-secondary'/>
                 </div>
+        </div>
         </div>
 
     </div>

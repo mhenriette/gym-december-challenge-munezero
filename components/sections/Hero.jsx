@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Hero() {
   return (
-    <div className=' w-full relative'>
+    <div className='w-full relative'>
          <div className="mx-6 px-6 absolute ">
             <div className="py-16 mr-0 ">
             <div className=" flex py-20 flex-col text-white">
@@ -19,6 +19,7 @@ export default function Hero() {
         loop="loop"
         muted="muted"
         playsInline="playsInline"
+        
       ></video>
     </div>
   )

@@ -13,6 +13,8 @@ import School from '../components/sections/School'
 import Alumni from '../components/sections/Alumni'
 import Service from '../components/sections/Service'
 import Support from '../components/sections/Support'
+import Footer from '../components/sections/Footer'
+import Wrapper from '../components/ui/Wrapper'
 
 
 
@@ -27,6 +29,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      
      <Navbar/>
      <Hero/>
      <News/>
@@ -39,6 +42,8 @@ export default function Home() {
      <Alumni/>
      <Service/>
      <Support/>
+     <Footer/>
+     
      
       </div>
       

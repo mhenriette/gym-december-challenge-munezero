@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 export default function Degrees() {
   return (
-    <div className='mt-12'>
+    <div className='mt-12 mx-auto container'>
         <div className='mx-6 py-6  '>
             <div className='border-b border-secondary flex justify-between items-center  hover:bg-opacity-30 border-solid  bg-[#E8ECEF]'>
                 <p className='py-5 pl-5 text-[#727272] font-bold text-2xl '>Select Degree Program or Select Keyword</p>

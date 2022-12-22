@@ -8,7 +8,7 @@ export default function Alumni() {
  
 
 return (
-    <div className='mt-28'>
+    <div className='mt-28 mx-auto container'>
     <div className='px-6 mx-6'>
     <div className='px-6 mt-11 lg:flex items-center flex-row-reverse '>
     <div className='relative -z-30 flex-[3] '>
