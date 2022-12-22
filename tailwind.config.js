@@ -10,7 +10,10 @@ module.exports = {
         primary:'#072140',
         secondary:'#3070b3',
         myyellow:'#fed702',
-      }
+      },
+      backgroundImage:{
+        'perspective': "url('/images/prospective.jpg')",
+      },
     },
   },
   plugins: [],

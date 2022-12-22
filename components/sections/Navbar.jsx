@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function Navbar() {
   return (
     
-    <div className='bg-primary flex px-6 '>
+    <div className='bg-primary flex px-6 absolute top-0 z-20 w-full '>
         <div className='flex items-center justify-between w-full'>
             {/* logos */}
                 <div className='flex items-center justify-between gap-2'>
