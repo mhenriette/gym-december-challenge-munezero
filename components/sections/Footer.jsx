@@ -35,7 +35,7 @@ export default function Footer() {
                 {/*part two  */}
                 <div className='px-3 flex flex-col '>
                     <h2 className='font-bold text-[1rem]'>
-							Let's shape the future together.
+							Let&apos;s shape the future together.
 						</h2>
                         <p className='font-normal text-base mt-3'>Support Us</p>
                 </div>
